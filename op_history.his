@@ -1,0 +1,18 @@
+
+      
+进入"C:\Workspace\workspaces\GitWrkspces\github\Workspaces\"目录
+鼠标右键 > "Open Git Bash here"
+
+    5  git init
+    6  git add README.md
+    7  echo "# Workspaces" > README.md
+    8  git add README.md
+    9  git commit -m "1st commit"
+   10  git branch -M main
+   11  git remote add origin https://github.com/pemglee/Workspaces.git
+   12  git push -u origin main
+   13  git config --list
+
+   20  vi README.md
+
+
